@@ -24,7 +24,7 @@ def fuel_from_fuel(m):
     966
     """
     tm = 0 
-    while m > 0:
+    hile m > 0:
         m = calc_fuel_from_mass(m)
         if m < 0:
             m = 0
